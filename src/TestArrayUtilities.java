@@ -9,9 +9,8 @@ public class TestArrayUtilities {
 		int[] arr = {1, 2, 3, 4, 5, 6};
 		int[] testArr = {12, 1, 2, 3, 4, 5};
 		
-		ArrayUtil.shiftArray(arr, 12);
-		
-		assertArrayEquals(testArr, arr);
+		int[] finalarr = ArrayUtil.shiftArray(arr, 12);
+		assertArrayEquals(testArr, finalarr);
 	}
 	
 	@Test
